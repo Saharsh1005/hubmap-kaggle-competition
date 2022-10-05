@@ -64,7 +64,7 @@ We have deveoped a **model to segment cell population neighborhoods** that perfo
 ## Repository Structure
 Below are the main directories in the repository: 
 
-- `data/`: images and masks for model training (download from kaggle competitions) and test image inference along with metadata .csv files.
+- `data/`: images and masks for model training (download from kaggle competitions) and test image for inference along with metadata .csv files.
 - `docs/`: figures used in this repo
 - `pretrained_weights/`: pretrained models weights loaded and fine tuned on this task
 - `weights/`: trained model weights
