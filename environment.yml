@@ -1,0 +1,9 @@
+name: hubmap
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.12
+  - pip=22.1.2
+  - pip:
+    - -r file:requirements.txt
