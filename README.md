@@ -1,5 +1,5 @@
 <!-- Add banner here -->
-![Banner2](https://drive.google.com/uc?id=1BZrw_PS9bVbKb5vEP22dbtZ3Ajag5MB5)
+![Banner2](https://drive.google.com/uc?id=1k_qzWmS2zfQ1RLRCKCXnsknCfcRnSJKK)
 # HuBMAP + HPA: Functional Tissue Unit Segmentation
 
 <!-- Add buttons here -->
