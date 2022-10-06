@@ -1,6 +1,6 @@
 <!-- Add banner here -->
 ![Banner2](https://drive.google.com/uc?id=1k_qzWmS2zfQ1RLRCKCXnsknCfcRnSJKK)
-# HuBMAP + HPA: Functional Tissue Unit Segmentation
+# HuBMAP + HPA: Functional Tissue Unit Segmentation <a name="project-title"></a>
 
 <!-- Add buttons here -->
 
