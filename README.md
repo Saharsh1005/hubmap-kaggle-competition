@@ -19,14 +19,15 @@ We have deveoped a **model to segment cell population neighborhoods** that perfo
     - [Training](#train)
     - [Inference](#infer)
 - [Predictions](#predictions)
+- [Results](#result)
 - [Dataset](#dataset)
 - [Citation](#cite)
 - [Authors](#authors)
 - [License](#license)
 
-## Set Up Environment
+## Set Up Environment <a name="setupenv"></a>
 1. Set up a new conda environment and activate it.
-    ```bash
+   ```bash
    # Create an environment with Python 3.7.2.
    conda create -n hubmap python==3.7.2
    conda activate hubmap
@@ -61,7 +62,7 @@ We have deveoped a **model to segment cell population neighborhoods** that perfo
    transformers==4.21.1
    ```
 
-## Repository Structure
+## Repository Structure <a name="repostr"></a>
 Below are the main directories in the repository: 
 
 - `data/`: images and masks for model training (download from kaggle competitions) and test image for inference along with metadata .csv files.
@@ -89,9 +90,9 @@ Below are the main executable scripts in the repository:
 - `train.py`: main training script
 - `inference.py`: main inference script for FTU segmentation. Outputs: RLE prediction along with image and prediction overlay.
 
-## Running the Code
+## Running the Code <a name="runcode"></a>
 
-### Training 
+### Training <a name="train"></a>
 
 a. Before training setup up the configuration as follows:
 
@@ -118,17 +119,16 @@ a. Before training setup up the configuration as follows:
 	- epochs: number of training epochs
 	- lr: learning rate
 	- optimizer: Adam or AdamW
-	lr_drop: for stepLR (optional)
 
 - **scheduler config**
 	- scheduler: ReduceLROnPlateau or CosineAnnealingLR
 	- min_lr: min. learning rate
 	- wd: weight decay
-	lr_drop: for stepLR (optional)
+	- lr_drop: for stepLR (optional)
 
 b. Run `train.py`
 
-### Inference
+### Inference <a name="infer"></a>
 
 a. Before inference setup up the configuration as follows:
 
@@ -150,11 +150,11 @@ a. Before inference setup up the configuration as follows:
 
 b. Run `inference.py`
 
-## Sample Predictions
+## Sample Predictions <a name="predictions"></a>
 Below is a sample prediction generated using the CoaT model:
 ![Prediction](https://drive.google.com/uc?id=1IYlm4h6bnwBc_Ay5eoX3GJmrq-6r-RYn)
 
-## Results
+## Results <a name="result"></a>
 Kaggle Competition results: 
 
 **CoaT model**
@@ -167,10 +167,10 @@ Kaggle Competition results:
 Kaggle Competition Bronze medal🥉. Standing in top 8%.
 ![LB](https://drive.google.com/uc?id=1bnW5PWHXt18wZ8cOcEzIRA36Clm1MGI0)
 
-## Dataset
+## Dataset <a name="dataset"></a>
 The original HubMap + HPA: Hacking the Human Body kaggle dataset can be found [here](https://www.kaggle.com/competitions/hubmap-organ-segmentation/data "here").
 
-## References
+## References <a name="cite"></a>
 
 - CoaT: https://arxiv.org/abs/2104.06399
 - PVTv2: https://arxiv.org/abs/2106.13797
@@ -180,10 +180,10 @@ The original HubMap + HPA: Hacking the Human Body kaggle dataset can be found [h
 - HubMap + HPA competition: https://www.kaggle.com/competitions/hubmap-organ-segmentation
 - Special thanks to Hengck for informative kaggle discussions, I learned a lot!
 
-## Authors
+## Authors <a name="authors"></a>
 - Saharsh Barve
 
-## License
+## License <a name="license"></a>
 [(Back to top)](#table-of-contents)
 
 Note that the SegFormer model is licensed under Apache2.0, therefore the derived weights for Segformer-mit-b2 are also shared under the same license. Please consider the implications of using the weights under this license on your work and its licensing.
