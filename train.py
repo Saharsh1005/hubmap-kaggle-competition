@@ -184,14 +184,16 @@ import importlib
 def build_model(model_parameters):    
     
     M = importlib.import_module(model_parameters.module)
-#     print(M)
     model = M.Net()
     model.output_type = ["loss","inference"]
     model.is_train = True
     encoder    =  model_parameters.param['encoder']
     path       =  model_parameters.checkpoint
     checkpoint = torch.load(path, map_location=lambda storage, loc: storage)
-    state_dict = checkpoint#['model']
+    if 'coat' in encoder.__class__.__name__:
+        state_dict = checkpoint['model']
+    else:
+        state_dict = checkpoint
     encoder.load_state_dict(state_dict,strict=False)
     model.encoder = encoder
     model.drop_path_rate=0.1
