@@ -1,5 +1,5 @@
 <!-- Add banner here -->
-![Banner2](https://github.com/Saharsh1005/hubmap-kaggle-competition/blob/master/docs/hubmap_banner.jpg)
+![Banner2](https://drive.google.com/uc?id=1u55uaupTCGahRaZcptAjPguExfBTo1fo)
 # HuBMAP + HPA: Functional Tissue Unit Segmentation <a name="project-title"></a>
 
 <!-- Add buttons here -->
