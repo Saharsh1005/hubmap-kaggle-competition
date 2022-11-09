@@ -165,7 +165,7 @@ Kaggle Competition results:
 | Private | 0.77805 |
 
 Kaggle Competition Bronze medal🥉. Standing in top 8%.
-![LB](https://drive.google.com/uc?id=1bnW5PWHXt18wZ8cOcEzIRA36Clm1MGI0)
+![LB]([https://drive.google.com/uc?id=1bnW5PWHXt18wZ8cOcEzIRA36Clm1MGI0](https://github.com/Saharsh1005/hubmap-kaggle-competition/blob/master/docs/hubmap_lb.jpg))
 
 ## Dataset <a name="dataset"></a>
 The original HubMap + HPA: Hacking the Human Body kaggle dataset can be found [here](https://www.kaggle.com/competitions/hubmap-organ-segmentation/data "here").
