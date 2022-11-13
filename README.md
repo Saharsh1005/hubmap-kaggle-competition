@@ -164,7 +164,7 @@ Kaggle Competition results:
 | Public  | 0.79321  |
 | Private | 0.77805 |
 
-Kaggle Competition Bronze medal🥉. Standing in top 8%.
+Kaggle Competition Bronze medal🥉. Finishing in top 8%.
 ![LB](https://github.com/Saharsh1005/hubmap-kaggle-competition/blob/master/docs/hubmap_lb.jpg)
 
 ## Dataset <a name="dataset"></a>
