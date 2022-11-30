@@ -180,10 +180,10 @@ The original HubMap + HPA: Hacking the Human Body kaggle dataset can be found [h
 - HubMap + HPA competition: https://www.kaggle.com/competitions/hubmap-organ-segmentation
 - Special thanks to Hengck for informative kaggle discussions, I learned a lot!
 
-## Authors <a name="authors"></a>
+## Authors  <a name="authors"></a>
 - Saharsh Barve
 
 ## License <a name="license"></a>
 [(Back to top)](#table-of-contents)
 
-Note that the SegFormer model is licensed under Apache2.0, therefore the derived weights for Segformer-mit-b2 are also shared under the same license. Please consider the implications of using the weights under this license on your work and its licensing.
+Note: The SegFormer model is licensed under Apache2.0, therefore the derived weights for Segformer-mit-b2 are also shared under the same license. Please consider the implications of using the weights under this license on your work and its licensing.
